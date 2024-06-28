@@ -435,6 +435,11 @@ allTd();
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
 console.log('*****esercizio23*****');
+function color(){
+  const colorlink = document.querySelectorAll('a');
+  colorlink.style.backgroundColor = 'red';
+}
+color();
 
 
 
